@@ -1,0 +1,438 @@
+
+
+/* -------------------------------- 
+
+
+elcterian  (( section ))
+
+0-  * Section Basic * 
+
+1-  * Section Topbar * 
+  
+2-  * Section Header*
+
+3-  *  Section  Call to Action  *
+ 
+4-  * Section   Why Choose *
+ 
+5-  * Section   services  *
+
+6-  * Section   Feauture*
+
+7-  * Section Testimonials  *
+
+8-  * Section Footer  *
+
+
+-------------------------------- */
+
+/*----- Start Basic -----*/
+
+
+body, {
+    font: 16px/1.75em 'Open Sans',Helvetica,Arial;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.75px;
+}
+
+section{
+    padding: 35px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Helvetica, Arial !important;
+}
+
+p{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.main-color{
+
+    color: #8fc21f
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/*----- End Basics -----*/
+
+
+
+/*----- Start Section Topbar -----*/
+
+
+
+.middle-topbar h3,.contact-us  h3 {
+    line-height: 32px;
+    color: #4e4e4e;
+    font-size: 19px;
+}
+
+section.topbar {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+span.Master-icon i, span.Fully-Licensed-icon i {
+    font-size: 18px;
+    color: #8fc21f;
+    margin-right: 10px;
+    margin-left: 6px;
+}
+
+button.btn.btn-info.call-now {
+    background: #8fc21f;
+    border: none;
+    padding: 13px;
+    border-radius: 18px;
+    box-shadow: 1px 2px 2px 1px #e6e6e6;
+    width: 100%;
+    font-weight: bold;
+}
+
+button.btn.btn-info.call-now.custom:hover,button.btn.btn-info.call-now:hover {
+    background: #ffffff;
+    color: #8fc21f;
+    border: 1px solid #8fc21f;
+}
+
+button.btn.btn-info.call-now i {
+    margin-left: 5px;
+}
+
+/*----- End Section Topbar -----*/
+
+
+
+
+
+/*----- Start Section Header -----*/
+
+
+section.Header {
+    background-image: url(../img/header/header-bg.jpg);
+    background-size: cover;
+    position: relative;
+    background-position-x: 180px;
+}
+.today-offer p {
+    line-height: 44px;
+}
+
+.left-side {
+    color: white;
+}
+
+
+.left-side h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.offer {
+    background: rgba(57, 138, 205, 0.82);
+    border: 3px dashed #ffffff;
+    padding: 20px 0;
+    border-radius: 200px;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    line-height: 40px;
+    position: relative;
+    left: 10%;
+    bottom: 0;
+        margin-top: 30px;
+}
+.offer:hover {
+    background: #8fc21f;
+}
+
+.login {
+    background: rgba(57, 138, 205, 0.82);
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,.25);
+    box-shadow: 0 2px 6px rgba(0,0,0,.53);
+    box-shadow: inset 0 4px 0 #0c89c7, 0 0 10px rgba(0,0,0,.2);
+    text-align: left;
+}
+.form-group p {
+    font-weight: bold;
+}
+.login h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 2px 2px 1px #e6e6e6;
+    background-color: #8fc21f;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
+
+.form-wrap input {
+    /* background: red; */
+    border-radius: 18px;
+}
+
+
+
+/*----- End Section Header -----*/
+
+
+
+
+
+
+/*----- Start Section Call to Action -----*/
+.Call-Action a {
+    color: #8fc21f;
+}
+
+section.Call-to-Action {
+    text-align: center;
+}
+
+section.Call-to-Action.second {
+    text-align: center;
+    background: #232323;
+    color: white;
+}
+
+
+
+/*----- End Section Call to Action -----*/
+
+
+
+
+
+/*----- Start Section Why Choose -----*/
+
+
+section.Call-to-Action {
+    text-align: center;
+}
+.WhyChoose h4 {
+    line-height: 26px;
+}
+.why-choose-title {
+    color: #0184d2;
+}
+
+.WhyChoose p {
+    color: #888888;
+    line-height: 25px;
+}
+.WhyChoose img:hover{
+-webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+
+/*----- End Section Why Choose -----*/
+
+
+section.Why-Choose {
+   background:url(../img/why-choose/why-choose-bg.jpg);
+       text-align: center;
+
+}
+.WhyChoose {
+    margin-top: 10px;
+}
+
+
+/*----- Start Section services -----*/
+
+
+
+.services {
+    background-image: url(../img/services/services-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        padding: 120px 0;
+}
+
+.services h1 {
+    font-size: 60px;
+    line-height: 1;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.services h4 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: white;
+}
+.services .services-card {
+    padding: 20px;
+}
+ul.intro-list, ul.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px 0;
+    text-transform: capitalize;
+}
+ul.intro-list li, ul.list li {
+    position: relative;
+    padding-left: 35px;
+    margin: 6px 0;
+    font-size: 18px;
+    width: 40%;
+    color: #fff;
+    float: left;
+}
+
+ul.intro-list li:before, ul.list li:before {
+    font-family: "Ionicons";
+    content: "\f375";
+    color: #a9da4a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+}
+
+/*----- End Section services -----*/
+
+
+
+/*----- Start Section  feature -----*/
+
+section.feature {
+    background-image: url("../img/feature/feature-bg.jpg");
+        background-size: cover;
+    position: relative;
+
+}
+p.feature {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 44px;
+    color: white;
+    position: relative;
+    margin-top: 25px;
+    font-family: 'Montserrat', Helvetica, Arial !important;
+}
+.icon_img {
+    padding: 0;
+    color: red;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    padding: 13px;
+    margin-left: -12px;
+    margin-bottom: 20px;
+}
+
+.icon_img img {
+    width: 50px;
+}
+.icon_img img:hover {
+    transform: rotate(9deg);
+}
+p.icon-text {
+    text-transform: capitalize;
+    color: white;
+    font-size: 19px;
+    line-height: 26px;
+    margin: 0 0 1.5rem;
+    font-family: 'Montserrat', Helvetica, Arial !important;
+}
+section.feature span {
+    background: #213c74;
+    color: #fff;
+    padding: 8px 14px;
+    margin: 29px 0px;
+    /* font-family: montserratbold; */
+    font-size: 17px;
+    float: left;
+}
+/*----- End Section  feature  -----*/
+
+
+/*-----Start  Section  Testimonials  -----*/
+
+
+
+blockquote{
+     margin-bottom: 20px;
+    padding: 10px 68px;
+    border-left: 4px none #edeff0;
+    background-image: url(../img/testimonials/quote-6-icon.svg),url(../img/testimonials/quote-5-icon.svg);
+    background-position: 100% 100%,0 0;
+    background-size: 60px,60px;
+    background-repeat: no-repeat,no-repeat;
+    color: #323b40;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: left;
+}
+blockquote .the-author {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*----- End Section  Testimonials  -----*/
+
+
+
+
+
+
+/*----- Start Section  footer -----*/
+
+
+section.footer {
+    background: #080808;
+    text-align: center;
+    color: #fff;
+    padding: 11px 0;
+}
+
+/*----- End Section  footer -----*/
+
